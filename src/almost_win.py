@@ -1,3 +1,4 @@
+
 def almost_win_horizontal(field, symbol):
   for row in range(3):
         for col in range(2):

@@ -1,3 +1,4 @@
+
 def check_diagonals(field, symbol):
     if any([
         field[0][0] == field[1][1] == field[2][2] == symbol,

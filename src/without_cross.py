@@ -1,3 +1,4 @@
+
 def row_without_cross(field):
     for row in range(3):
        if any([
