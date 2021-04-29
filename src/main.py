@@ -9,6 +9,7 @@ def greeting():
     print("Each cell is specified by 2 coordinates in the range from 1 to 3.")
     print("For example, an input like '1 3' (without quotation marks!) means the 1st x and the 3rd yumn.")
     print("In your turn, you must enter the coordinates of the cell in which you want to put a cross.")
+    print("ATTENTION: each coordinate must be entered on a new line!")
     print("Good luck!")
     print("=================")
 
