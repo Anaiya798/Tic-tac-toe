@@ -15,5 +15,5 @@ jobs:
     - name: Build and Test
       run: |
        cd tests
-       pwd
+       python run_all_tests.py
    
