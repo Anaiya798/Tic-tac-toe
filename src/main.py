@@ -104,8 +104,8 @@ def game_cycle(field):
         print("Put a cross: ")
         x, y = input(), input() #user input
 
-        if not(x.isdigit()) or not(y.isdigit()): #not numbers
-            print("Invalid input! Please, enter numbers")
+        if not(x.isdigit()) or not(y.isdigit()): #not 2 numbers
+            print("Invalid input! Please, enter only 2 numbers, each number on a new line")
             continue
 
         x = int(x) #convertion to int format
