@@ -14,6 +14,7 @@ jobs:
          architecture: 'x64' 
     - name: Build and Tests
       run: |
-       cd tests
-       python -m unittest -v tests.run_all_tests
+       cd tests1
+       sudo apt-get install python3-distutils
+       python run_all_tests.py
    
