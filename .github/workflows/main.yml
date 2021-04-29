@@ -14,6 +14,6 @@ jobs:
          architecture: 'x64' 
     - name: Build and Tests
       run: |
-       cd tests
+       cd tests1
        python -m unittest -v tests.run_all_tests
    
