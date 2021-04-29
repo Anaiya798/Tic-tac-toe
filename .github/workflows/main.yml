@@ -15,6 +15,5 @@ jobs:
     - name: Build and Tests
       run: |
        cd tests1
-       sudo apt-get install python3-distutils
        python run_all_tests.py
    
