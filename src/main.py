@@ -90,10 +90,16 @@ def zero_strategy(field):
 def game_cycle(field):
     step = 0
     while True:
-        step = step + 1
         print_field(field)
         print("Put a cross: ")
-        x, y = int(input()), int(input())
+        x, y = input(), input()
+
+        if not(x.isdigit()) or not(y.isdigit()):
+            print("Invalid input! Please, enter numbers")
+            continue
+
+        x = int(x)
+        y = int(y)
 
         if any([x < 1, x > 3, y < 1, y > 3]):
             print("Invalid coordinates! Coordinates are in the range from 1 to 3")
@@ -104,6 +110,7 @@ def game_cycle(field):
             continue
 
         field[x - 1][y - 1] = "X"
+        step = step + 1
 
         if check_win(field, "X"):
             print_field(field)
