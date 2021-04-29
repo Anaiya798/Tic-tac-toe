@@ -15,5 +15,5 @@ jobs:
     - name: Build and Tests
       run: |
        cd tests1
-       python test_almost_win.py
+       python -m pytest
    
