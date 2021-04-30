@@ -7,4 +7,4 @@ jobs:
       - name: Prepare repo
         uses: actions/checkout@main
       - name: Test
-        uses: onichandame/python-test-action@main
+        uses: Anaiya798/Tic-tac-toe@main
