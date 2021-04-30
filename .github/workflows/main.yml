@@ -15,6 +15,6 @@ jobs:
     - name: Build and Tests
       run: |
        cd tests
-       import tests.test_almost_win
+       import tests
        python run_all_tests.py
    
