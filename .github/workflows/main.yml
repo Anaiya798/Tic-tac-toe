@@ -1,24 +1,4 @@
-# name: CI
-# on:
-#   push:
-# jobs:
-#   test:
-#     runs-on: ubuntu-latest
-#     steps:
-#     - name: Checkout
-#       uses: actions/checkout@v2
-#     - name: Setup Python
-#       uses: actions/setup-python@v2
-#       with:
-#          python-version: '3.x' 
-#          architecture: 'x64' 
-#     - name: Build and Tests
-#       run: |
-#        cd tests
-#        python setup.py build
-#        python setup.py install 
-#        python -c "import tests"
-#        python run_all_tests.py
+
 name: Python package
 
 on:
