@@ -15,6 +15,8 @@ jobs:
     - name: Build and Tests
       run: |
        cd tests
-       import tests
+       python setup.py build
+       python setup.py install 
+       python -c "import tests"
        python run_all_tests.py
    
