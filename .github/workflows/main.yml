@@ -14,6 +14,6 @@ jobs:
          architecture: 'x64' 
     - name: Build and Tests
       run: |
-       cd tests
-       python run_all_tests.py
+       pwd
+       ls
    
